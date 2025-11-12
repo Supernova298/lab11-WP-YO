@@ -1,6 +1,6 @@
 # https://github.com/Supernova298/lab11-WP-YO
 # Partner 1: Will Parkin
-# Partner 2: Yoncho Ovcharov
+# Partner 2: Yancho Ovcharov
 
 import unittest
 from calculator import *
