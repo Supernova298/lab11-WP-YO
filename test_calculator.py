@@ -1,6 +1,8 @@
 import unittest
 from calculator import *
-
+# https://github.com/Supernova298/lab11-WP-YO
+# Partner 1: Will Parkin
+# Partner 2: Yoncho Ovcharov
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     # def test_add(self): # 3 assertions
