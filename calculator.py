@@ -1,3 +1,6 @@
+# https://github.com/Supernova298/lab11-WP-YO
+# Partner 1: Will Parkin
+# Partner 2: Yancho Ovcharov
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -12,7 +15,7 @@ def square_root(a):
         raise ValueError()
     else:
         return math.sqrt(a)
-
+z
 def hypotenuse(a, b):
     return math.hypot(a,b)
 
