@@ -17,13 +17,13 @@ def mul(a, b):
 
 def div(a, b):
     if a == 0:
-        raise ZeroDivisionError
+        raise ZeroDivisionError()
     else:
         return b / a
 
 def log(a, b):
     if a == 0 or b == 0:
-        raise ValueError
+        raise ValueError()
     else:
         return math.log(b, a)
 
