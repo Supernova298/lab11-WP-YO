@@ -16,14 +16,14 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertEqual(mul(4, -2), -8)
-        self.assertNotEqual(mul(9, 9), 3)
-        self.assertAlmostEqual(mul(3, 1/3), 1)
+        self.assertEqual(multiply(4, -2), -8)
+        self.assertNotEqual(multiply(9, 9), 3)
+        self.assertAlmostEqual(multiply(3, 1/3), 1)
 
     def test_divide(self): # 3 assertions
-        self.assertAlmostEqual(div(2, 2), 1)
-        self.assertNotEqual(div(5, 2), 5)
-        self.assertAlmostEqual(div(4, 1), 0.25)
+        self.assertAlmostEqual(divide(2, 2), 1)
+        self.assertNotEqual(divide(5, 2), 5)
+        self.assertAlmostEqual(divide(4, 1), 0.25)
     # ##########################
 
     ######## Partner 2
@@ -44,7 +44,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
-            log(0, 5)
+            logarithm(0, 5)
 
 
     def test_hypotenuse(self): # 3 assertions
